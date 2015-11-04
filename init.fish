@@ -1,0 +1,17 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+alias d='__fastdir_dirhist -l -n'
+alias -='cd -'
+
+alias 1='__fastdir_cd_num 1'
+alias 2='__fastdir_cd_num 2'
+alias 3='__fastdir_cd_num 3'
+alias 4='__fastdir_cd_num 4'
+alias 5='__fastdir_cd_num 5'
+alias 6='__fastdir_cd_num 6'
+alias 7='__fastdir_cd_num 7'
+alias 8='__fastdir_cd_num 8'
+alias 9='__fastdir_cd_num 9'
