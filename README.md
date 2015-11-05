@@ -34,7 +34,7 @@ The following aliases are provided:
   Sample output:
 
     ```
-    1 /home/daniel/.config/fish/fundle/tuvistavie/fish-fastdir
+  1 /home/daniel/.config/fish/fundle/tuvistavie/fish-fastdir
   2 /home/daniel
   3 /home/daniel/Dropbox
   5 /home/daniel/Dropbox/tmp
