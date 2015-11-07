@@ -58,7 +58,7 @@ function __fastdir_dirhist --description "Print the current directory history (t
 	if count $dirnext > /dev/null
 		for i in (seq (echo (count $dirnext)) -1 1)
 			if test $line_num = true
-				set -l line (math $i + $current_line)
+				set -l line (math (count $dirnext) - $i + $current_line + 1)
 				echo -n "$line "
 			end
 			echo -n -e $dirnext[$i]$separator
