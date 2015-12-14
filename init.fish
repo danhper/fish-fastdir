@@ -1,17 +1,17 @@
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
+function ..; cd ..; end
+function ...; cd ../..; end
+function ....; cd ../../..; end
+function .....; cd ../../../..; end
 
-alias d='__fastdir_dirhist -l -n'
-alias -='cd -'
+function d; __fastdir_dirhist -l -n; end
+function -; cd -; end
 
-alias 1='__fastdir_cd_num 1'
-alias 2='__fastdir_cd_num 2'
-alias 3='__fastdir_cd_num 3'
-alias 4='__fastdir_cd_num 4'
-alias 5='__fastdir_cd_num 5'
-alias 6='__fastdir_cd_num 6'
-alias 7='__fastdir_cd_num 7'
-alias 8='__fastdir_cd_num 8'
-alias 9='__fastdir_cd_num 9'
+function 1; __fastdir_cd_num 1; end
+function 2; __fastdir_cd_num 2; end
+function 3; __fastdir_cd_num 3; end
+function 4; __fastdir_cd_num 4; end
+function 5; __fastdir_cd_num 5; end
+function 6; __fastdir_cd_num 6; end
+function 7; __fastdir_cd_num 7; end
+function 8; __fastdir_cd_num 8; end
+function 9; __fastdir_cd_num 9; end
