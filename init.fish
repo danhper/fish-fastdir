@@ -4,7 +4,7 @@ function ....; cd ../../..; end
 function .....; cd ../../../..; end
 
 function d; __fastdir_dirhist -l -n; end
-function -; cd -; end
+abbr -- - 'cd -'
 
 function 1; __fastdir_cd_num 1; end
 function 2; __fastdir_cd_num 2; end
